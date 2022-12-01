@@ -9,7 +9,7 @@ for i in range(len(list1)-1):
     list1[i], list1[n] = list1[n], list1[i]
 print(f' Перемешанный список {list1}')
 
-# второй вариант
+# второй вариант решения
 
 import random
 list2 = [random.randint(0, 10) for i in range(random.randint(5, 20))]
