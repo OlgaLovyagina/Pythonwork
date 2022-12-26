@@ -32,7 +32,7 @@ def send_welcome(message):
     bot.send_message(message.chat.id, f'Начинает {turn[message.chat.id]}')
     enable_game[message.chat.id] = True
     if turn[message.chat.id] == 'Bot':
-        take = randint(1, candys[message.chat.id] % 29)
+        take = randint(1, 28)
         candys[message.chat.id] -= take
         bot.send_message(message.chat.id, f'Бот взял {take}')
         bot.send_message(message.chat.id,
