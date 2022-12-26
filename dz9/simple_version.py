@@ -2,7 +2,7 @@ import telebot
 from random import randint
 from random import choice
 
-bot = telebot.TeleBot("5909375584:AAE1CBtFBVzbXv-UTw8DF9DBdlKXvH7wryc")
+bot = telebot.TeleBot("TOKEN")
 candys = dict()
 enable_game = dict()
 turn = dict()
